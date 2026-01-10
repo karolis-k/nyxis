@@ -222,18 +222,6 @@ eventBus.fire(ItemUsedEvent(item: potion));
 eventBus.on<ItemUsedEvent>().listen((e) => playSound('potion.wav'));
 ```
 
-### 3. Layered Character Sprites
-Equipment displayed on characters:
-```dart
-class LayeredCharacter extends PositionComponent {
-  // Stack: body → armor → helmet → weapon
-  late SpriteComponent bodyLayer;
-  late SpriteComponent armorLayer;
-  late SpriteComponent helmetLayer;
-  late SpriteComponent weaponLayer;
-}
-```
-
 ### 4. Per-Location Save System
 Efficient save/load for large worlds:
 ```
@@ -252,7 +240,6 @@ saves/
 Reusing assets from the previous game:
 - Sprites (player, monsters, items, tiles)
 - Audio files (sound effects, music)
-- Fonts and UI elements
 
 ---
 
@@ -268,11 +255,11 @@ Reusing deployment strategies from the previous game:
 ## Next Steps
 
 1. ~~**Set up the project** with Flutter and the recommended dependencies~~ ✅
-2. **Migrate assets** from previous game to new project
-3. **Set up deployment** pipelines (reuse from previous game)
 4. **Create the folder structure** as outlined above
+2. **Migrate assets** from previous game to new project
 5. **Implement core systems**: game loop, tile rendering, player movement
 6. **Add pathfinding** for monsters
 7. **Implement save/load** with Hive
 8. **Build the UI**: HUD, inventory, menus
 9. **Add content**: monsters, items, dungeons
+3. **Set up deployment** pipelines (reuse from previous game)
