@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Main sparkle ring -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#ffd700" stroke-width="1" opacity="0.4"/>
+  <!-- Large stars -->
+  <g fill="#ffd700" opacity="0.8">
+    <polygon points="32,8 34,14 40,14 35,18 37,24 32,20 27,24 29,18 24,14 30,14"/>
+    <polygon points="12,32 14,38 20,38 15,42 17,48 12,44 7,48 9,42 4,38 10,38"/>
+    <polygon points="52,32 54,38 60,38 55,42 57,48 52,44 47,48 49,42 44,38 50,38"/>
+  </g>
+  <!-- Medium stars -->
+  <g fill="#ffeb3b" opacity="0.7">
+    <polygon points="20,16 21,19 24,19 22,21 23,24 20,22 17,24 18,21 16,19 19,19"/>
+    <polygon points="44,16 45,19 48,19 46,21 47,24 44,22 41,24 42,21 40,19 43,19"/>
+    <polygon points="20,48 21,51 24,51 22,53 23,56 20,54 17,56 18,53 16,51 19,51"/>
+    <polygon points="44,48 45,51 48,51 46,53 47,56 44,54 41,56 42,53 40,51 43,51"/>
+  </g>
+  <!-- Small sparkles -->
+  <g fill="#fff" opacity="0.9">
+    <circle cx="16" cy="24" r="1"/>
+    <circle cx="48" cy="24" r="1"/>
+    <circle cx="16" cy="40" r="1"/>
+    <circle cx="48" cy="40" r="1"/>
+    <circle cx="32" cy="50" r="1"/>
+    <circle cx="26" cy="12" r="1"/>
+    <circle cx="38" cy="12" r="1"/>
+  </g>
+</svg>

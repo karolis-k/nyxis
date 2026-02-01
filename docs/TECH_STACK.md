@@ -255,8 +255,8 @@ Reusing deployment strategies from the previous game:
 ## Next Steps
 
 1. ~~**Set up the project** with Flutter and the recommended dependencies~~ ✅
-4. **Create the folder structure** as outlined above
-2. **Migrate assets** from previous game to new project
+4. ~~**Create the folder structure** as outlined above~~ ✅
+2. ~~**Migrate assets** from previous game to new project~~ ✅
 5. **Implement core systems**: game loop, tile rendering, player movement
 6. **Add pathfinding** for monsters
 7. **Implement save/load** with Hive

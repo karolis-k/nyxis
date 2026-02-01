@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Lightning aura -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#ffeb3b" stroke-width="2" opacity="0.6"/>
+  <!-- Electric bolts -->
+  <path d="M20 16 L24 20 L20 24 L26 28 L22 32" fill="none" stroke="#ffc107" stroke-width="2" opacity="0.8"/>
+  <path d="M44 18 L40 22 L44 26 L38 30 L42 34" fill="none" stroke="#ffeb3b" stroke-width="2" opacity="0.7"/>
+  <path d="M46 42 L42 46 L46 50 L40 54" fill="none" stroke="#ffc107" stroke-width="2" opacity="0.8"/>
+  <path d="M18 46 L22 42 L18 38 L24 34 L20 30" fill="none" stroke="#ffeb3b" stroke-width="2" opacity="0.7"/>
+  <!-- Electric sparks -->
+  <circle cx="32" cy="12" r="1.5" fill="#ffeb3b" opacity="0.9"/>
+  <circle cx="52" cy="32" r="1" fill="#ffc107" opacity="0.8"/>
+  <circle cx="32" cy="52" r="1.5" fill="#ffeb3b" opacity="0.9"/>
+  <circle cx="12" cy="32" r="1" fill="#ffc107" opacity="0.8"/>
+  <!-- Jagged energy lines -->
+  <path d="M28 8 L30 12 L26 14 L32 18" fill="none" stroke="#ffeb3b" stroke-width="1" opacity="0.6"/>
+  <path d="M36 8 L34 12 L38 14 L32 18" fill="none" stroke="#ffc107" stroke-width="1" opacity="0.6"/>
+</svg>

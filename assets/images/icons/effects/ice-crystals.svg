@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Ice aura ring -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#81d4fa" stroke-width="2" opacity="0.6"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#b3e5fc" stroke-width="1.5" opacity="0.7"/>
+  <!-- Ice crystals -->
+  <path d="M20 20 L22 18 L24 20 L22 22 Z" fill="#4fc3f7" opacity="0.8"/>
+  <path d="M42 22 L44 20 L46 22 L44 24 Z" fill="#81d4fa" opacity="0.7"/>
+  <path d="M44 42 L46 40 L48 42 L46 44 Z" fill="#4fc3f7" opacity="0.8"/>
+  <path d="M18 42 L20 40 L22 42 L20 44 Z" fill="#81d4fa" opacity="0.7"/>
+  <path d="M32 14 L34 12 L36 14 L34 16 Z" fill="#4fc3f7" opacity="0.6"/>
+  <path d="M30 50 L32 48 L34 50 L32 52 Z" fill="#81d4fa" opacity="0.7"/>
+  <!-- Frost lines -->
+  <line x1="32" y1="8" x2="32" y2="16" stroke="#b3e5fc" stroke-width="1" opacity="0.5"/>
+  <line x1="32" y1="48" x2="32" y2="56" stroke="#b3e5fc" stroke-width="1" opacity="0.5"/>
+  <line x1="8" y1="32" x2="16" y2="32" stroke="#b3e5fc" stroke-width="1" opacity="0.5"/>
+  <line x1="48" y1="32" x2="56" y2="32" stroke="#b3e5fc" stroke-width="1" opacity="0.5"/>
+</svg>

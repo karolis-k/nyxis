@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="arrowGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8BC34A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CDDC39;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="trailGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#CDDC39;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#8BC34A;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Arrow trail -->
+  <path d="M4 32 L50 32" 
+        stroke="url(#trailGradient)" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        fill="none">
+    <animate attributeName="stroke-width" 
+             values="3;6;3" 
+             dur="0.4s" 
+             begin="0s"/>
+    <animate attributeName="opacity" 
+             values="0;0.8;0" 
+             dur="0.4s" 
+             begin="0s"/>
+  </path>
+  
+  <!-- Arrow shaft -->
+  <line x1="8" y1="32" x2="48" y2="32" 
+        stroke="url(#arrowGradient)" 
+        stroke-width="4" 
+        stroke-linecap="round">
+    <animateTransform attributeName="transform" 
+                      type="translate" 
+                      values="0,0; 20,0; 40,0" 
+                      dur="0.3s" 
+                      begin="0s"/>
+    <animate attributeName="opacity" 
+             values="1;1;0" 
+             dur="0.3s" 
+             begin="0s"/>
+  </line>
+  
+  <!-- Arrow head -->
+  <polygon points="48,32 44,28 44,30 40,30 40,34 44,34 44,36" 
+           fill="url(#arrowGradient)">
+    <animateTransform attributeName="transform" 
+                      type="translate" 
+                      values="0,0; 20,0; 40,0" 
+                      dur="0.3s" 
+                      begin="0s"/>
+    <animate attributeName="opacity" 
+             values="1;1;0" 
+             dur="0.3s" 
+             begin="0s"/>
+  </polygon>
+  
+  <!-- Feathers -->
+  <polygon points="12,28 8,30 12,32 8,34 12,36" 
+           fill="#8D6E63" 
+           opacity="0.8">
+    <animateTransform attributeName="transform" 
+                      type="translate" 
+                      values="0,0; 20,0; 40,0" 
+                      dur="0.3s" 
+                      begin="0s"/>
+    <animate attributeName="opacity" 
+             values="0.8;0.8;0" 
+             dur="0.3s" 
+             begin="0s"/>
+  </polygon>
+  
+  <!-- Wind effect -->
+  <circle cx="55" cy="32" r="3" fill="#E8F5E8" opacity="0.6">
+    <animate attributeName="r" values="0;8;12" dur="0.2s" begin="0.3s"/>
+    <animate attributeName="opacity" values="0.6;0.3;0" dur="0.2s" begin="0.3s"/>
+  </circle>
+</svg>
