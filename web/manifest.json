@@ -1,11 +1,11 @@
 {
-    "name": "roguelike_game",
-    "short_name": "roguelike_game",
+    "name": "Nyxis Roguelike",
+    "short_name": "Nyxis",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#1a1a2e",
+    "theme_color": "#16213e",
+    "description": "A turn-based roguelike adventure with procedural dungeons and world exploration.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
